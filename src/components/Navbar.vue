@@ -18,10 +18,10 @@ function toggleTheme() {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3">
+  <nav class="navbar navbar-expand-sm navbar-dark blueBg px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" height="45" />
+        <img alt="logo" src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" height="65" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -49,6 +49,14 @@ function toggleTheme() {
 </template>
 
 <style scoped>
+/* --fds-blue-60: #1877F2;
+    --fds-blue-70: #2851A3;
+    --fds-blue-80: #1D3C78; */
+
+.blueBg {
+  background-color: #2851A3;
+}
+
 a:hover {
   text-decoration: none;
 }

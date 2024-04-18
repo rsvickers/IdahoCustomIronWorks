@@ -12,8 +12,8 @@ import Navbar from './components/Navbar.vue'
   <main>
     <router-view />
   </main>
-  <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
+  <footer class="blueBg text-light">
+    Figure this out soon
   </footer>
 </template>
 
@@ -22,6 +22,10 @@ import Navbar from './components/Navbar.vue'
 
 :root {
   --main-height: calc(100vh - 32px - 64px);
+}
+
+.blueBg {
+  background-color: #2851A3;
 }
 
 
