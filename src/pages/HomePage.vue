@@ -31,6 +31,9 @@
           quality of life of its employees by developing maintenance-free products that are recyclable and through our
           manufacturing process, waste is disposed of in a responsible manner. If you would like more information call
           Idaho Custom Iron Works 208-602-2780</p>
+        <router-link :to="{ name: 'UltraLox' }">
+          <p class="mt-4">Click here to learn more about UltraLox!</p>
+        </router-link>
       </div>
       <div class="col-12 col-md-5">
         <img class="img-fluid"
