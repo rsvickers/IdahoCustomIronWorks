@@ -35,9 +35,19 @@
           <p class="mt-4">Click here to learn more about UltraLox!</p>
         </router-link>
       </div>
-      <div class="col-12 col-md-5">
-        <img class="img-fluid"
-          src="http://idahocustomironworks.com/wp-content/uploads/2020/07/IDAHO-CUSTOM-IRON-WORKS-300x142.jpg" alt="">
+      <div class="col-12 col-md-5 text-center mt-3">
+        <div>
+          <h5>Before</h5>
+          <img
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/420474234_803642351802626_7995411150805441809_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6NswcLJK6xMAb4PZDGj&_nc_ht=scontent-sea1-1.xx&oh=00_AfABzPhPqCbbFTnjQjl34ONw1rNW-qeMVrS9BgBGjDdNKg&oe=66276C6F"
+            alt="" class="img-fluid beforeAndAfter rounded">
+        </div>
+        <div>
+          <h5 class="mt-2">After</h5>
+          <img
+            src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1796706135910266378&th=18ef2eb614b2360a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9_JiHP6PHF-fgO6UZyISIpCZ6GoXhwzypOWw9T9cFro1t2qCDp_k0NDS7EejGoECuVhrtKXbPQ0k4027dTG90rOLaXtm5OJNc9cQKpGkn-fdM5VJdm82_4k8M&disp=emb&realattid=18ef2eb16c452350c661"
+            alt="" class="img-fluid beforeAndAfter rounded">
+        </div>
       </div>
     </section>
 
@@ -64,5 +74,10 @@
 
 .text-shadow {
   text-shadow: 2px 2px 4px black;
+}
+
+.beforeAndAfter {
+  max-height: 33dvh;
+  width: 55dvh;
 }
 </style>
