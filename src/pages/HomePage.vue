@@ -4,9 +4,13 @@
 
 <template>
   <div class="container-fluid">
-    <section class="row">
-      <div class="col-12 heroImg box">
-        <h1 class="text-light box rounded p-2 mt-3"> Whats up</h1>
+    <section class="row heroImg box">
+      <div class="col-12 text-light box rounded p-2 mt-3 text-center">
+        <h1 class="">Idaho Custom Iron Works</h1>
+        <h5 class="mt-5">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
+          owned,
+          family operated and licensed in both Idaho and Oregon. We have over 15 years experience doing Commercial and
+          Residential Metal Fabrication and install. </h5>
       </div>
     </section>
   </div>
