@@ -21,7 +21,8 @@ function toggleTheme() {
   <nav class="navbar navbar-expand-sm navbar-dark blueBg px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" height="65" />
+        <img alt="logo" src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" height="65"
+          title="Home" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"

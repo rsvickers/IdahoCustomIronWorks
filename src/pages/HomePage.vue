@@ -3,36 +3,29 @@
 </script>
 
 <template>
-  <!-- <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo"
-        class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
-    </div>
-  </div> -->
-  Idaho Custom Iron Works
+  <div class="container-fluid">
+    <section class="row">
+      <div class="col-12 heroImg box">
+        <h1 class="text-light box rounded p-2 mt-3"> Whats up</h1>
+      </div>
+    </section>
+  </div>
 </template>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
+.heroImg {
+  background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490237458204.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 65dvh;
+}
 
-  .home-card {
-    width: clamp(500px, 50vw, 100%);
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-  }
+.box {
+  background-color: rgba(52, 52, 52, 0.785);
+  border-radius: 1%;
+  min-width: 45vw;
+  max-height: 100vh;
+  align-items: center;
+  box-shadow: 0px 5px 20px black;
 }
 </style>
