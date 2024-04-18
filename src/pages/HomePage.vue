@@ -79,5 +79,6 @@
 .beforeAndAfter {
   max-height: 33dvh;
   width: 55dvh;
+  box-shadow: 5px 5px 20px black;
 }
 </style>
