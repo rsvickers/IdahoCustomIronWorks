@@ -24,8 +24,13 @@
           and glass railing systems for decks, patios and swimming pools with low-maintenance living in mind. Our
           dedication to research and development ensures a uniquely engineered railing system that meets
           commercial/residential building codes throughout the US.</p>
-        <p class="mt-3"> Heyyy</p>
-        <p class="mt-3"></p>
+        <p class="mt-4">ULTRALOX INTERLOCKING® TECHNOLOGY high-performance railings are made of durable aluminum with a
+          long-lasting powder-coated finish to stay looking like new. We back that up with a 20-year limited warranty.
+          We guarantee that your glass and aluminum railing system will continue looking great for years to come.</p>
+        <p class="mt-4">Additionally, ULTRALOX INTERLOCKING® TECHNOLOGY strives to respect the environment and the
+          quality of life of its employees by developing maintenance-free products that are recyclable and through our
+          manufacturing process, waste is disposed of in a responsible manner. If you would like more information call
+          Idaho Custom Iron Works 208-602-2780</p>
       </div>
       <div class="col-12 col-md-5">
         <img class="img-fluid"
@@ -39,7 +44,7 @@
 
 <style scoped lang="scss">
 .heroImg {
-  background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490237458204.jpg);
+  background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg);
   background-size: cover;
   background-position: center;
   min-height: 65dvh;
