@@ -32,6 +32,11 @@ const routes = [
     component: loadPage('ResidentialPage')
   },
   {
+    path: '/custom',
+    name: 'Custom',
+    component: loadPage('CustomPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),

@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <section class="row mt-4 mb-2 justify-content-center">
-            <h3 class="mt-4 mb-5 text-center">Check out our Residential Work</h3>
+            <h3 class="mt-4 mb-5 text-center">Check out our Custom gallery</h3>
             <div class="col-12 d-flex justify-content-center mt-3">
                 <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" />
             </div>

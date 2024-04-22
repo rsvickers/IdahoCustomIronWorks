@@ -1,10 +1,7 @@
 <template>
     <div class="container-fluid">
         <section class="row mt-4 mb-2 justify-content-center">
-            <!-- <h3 class="mt-4 mb-5 text-center">Check out our UltraLox gallery</h3> -->
-            <img class="img-fluid ultralox"
-                src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
-                alt="UltraLox Interlocking Technology">
+            <h3 class="mt-4 mb-5 text-center">Check out our Commercial Work</h3>
             <div class="col-12 d-flex justify-content-center mt-3">
                 <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" />
             </div>
