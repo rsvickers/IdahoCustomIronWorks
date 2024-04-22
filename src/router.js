@@ -22,6 +22,16 @@ const routes = [
     component: loadPage('UltraloxPage')
   },
   {
+    path: '/commercial',
+    name: 'Commercial',
+    component: loadPage('CommercialPage')
+  },
+  {
+    path: '/residential',
+    name: 'Residential',
+    component: loadPage('ResidentialPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),
