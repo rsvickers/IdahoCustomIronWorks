@@ -61,6 +61,14 @@
       </div>
       <div class="col-12 col-md-7 text-center">
         <h2>Commercial Work</h2>
+        <p class="mt-3">Idaho Custom Iron Works is your premier destination for exquisite custom balconies and rails,
+          designed to elevate
+          the aesthetics and safety of commercial spaces. With a passion for craftsmanship and a dedication to
+          excellence, we specialize in crafting bespoke iron structures that seamlessly integrate functionality with
+          style. Whether you're envisioning a striking balcony overlooking a bustling cityscape or sturdy yet elegant
+          railings for a commercial property, our skilled artisans are here to turn your vision into reality. Explore
+          our portfolio to witness the beauty and durability of our ironwork, and let us bring an unparalleled level
+          of sophistication and security to your commercial project</p>
         <router-link :to="{ name: 'Commercial' }">
           <p class="mt-4">Click here to learn more about our commercial work!</p>
         </router-link>
@@ -70,6 +78,11 @@
     <section class="row mt-5 mb-2">
       <div class="col-12 col-md-7 text-center">
         <h2>Residential Work</h2>
+        <p>Elevate your residential spaces with our exquisite ironwork, meticulously designed to enhance both the beauty
+          and safety of your property. From timeless balcony designs that offer a private oasis to elegant railings that
+          add character to your home's exterior. With a keen eye for detail and a passion for quality, our team will
+          work closely with you to bring your vision to life, ensuring a seamless integration of functionality and
+          aesthetics.</p>
         <router-link :to="{ name: 'Residential' }">
           <p class="mt-4">Click here to learn more about our residential work!</p>
         </router-link>
