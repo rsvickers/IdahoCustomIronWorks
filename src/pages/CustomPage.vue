@@ -24,10 +24,17 @@
             </div>
         </section>
 
+
+        <section class="row">
+            <div class="col-12">
+                <Contact />
+            </div>
+        </section>
     </div>
 </template>
 
 <script>
+import Contact from '../components/Contact.vue'
 export default {
     data() {
         return {
