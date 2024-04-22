@@ -13,7 +13,14 @@ import Navbar from './components/Navbar.vue'
     <router-view />
   </main>
   <footer class="blueBg text-light">
-    Figure this out soon
+    <div class="d-flex fs-3">
+      <a href="https://www.facebook.com/ICEFabrication/">
+        <i class="mdi mdi-facebook mx-3"></i>
+      </a>
+      <a href="https://www.instagram.com/idahocustomironworks/">
+        <i class="mdi mdi-instagram"></i>
+      </a>
+    </div>
   </footer>
 </template>
 
@@ -26,6 +33,7 @@ import Navbar from './components/Navbar.vue'
 
 .blueBg {
   background-color: #2851A3;
+  // background-color: #FBC926;
 }
 
 
