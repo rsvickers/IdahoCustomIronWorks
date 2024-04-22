@@ -46,7 +46,7 @@
         <div>
           <h5 class="mt-5">After</h5>
           <img
-            src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1796706135910266378&th=18ef2eb614b2360a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9_JiHP6PHF-fgO6UZyISIpCZ6GoXhwzypOWw9T9cFro1t2qCDp_k0NDS7EejGoECuVhrtKXbPQ0k4027dTG90rOLaXtm5OJNc9cQKpGkn-fdM5VJdm82_4k8M&disp=emb&realattid=18ef2eb16c452350c661"
+            src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1796706135910266378&th=18ef2eb614b2360a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ84vIuwYSu3MP_w5_W9WqXBgwSO9_exPuSBUI4zeXTP3o0LKaUin_IApM9mmEMfs8Uq5LIHNwnyxQj1DrsN6AsVIhjyne2Bd9p2dbDxvoldISbqt0zTk1oAsZ0&disp=emb&realattid=18ef2eb16c452350c661"
             alt="" class="img-fluid beforeAndAfter rounded">
         </div>
       </div>
@@ -54,12 +54,12 @@
 
 
     <section class="row mt-5 mb-2">
-      <div class="col-12 col-md-5 d-flex justify-content-center">
+      <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
         <img class="img-fluid rounded coolImg"
           src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/420902139_805051591661702_8527944067580198862_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PY9apN3NUj0Ab4Dbs50&_nc_ht=scontent-sea1-1.xx&oh=00_AfC7QVLd7TLGdD6PI0sB1ZuqWqJktbD2r35nPu5m0zluhg&oe=662C96ED"
           alt="">
       </div>
-      <div class="col-12 col-md-7 text-center">
+      <div class="col-12 col-md-7 text-center order-1 order-md-2">
         <h2>Commercial Work</h2>
         <p class="mt-3">Idaho Custom Iron Works is your premier destination for exquisite custom balconies and rails,
           designed to elevate
