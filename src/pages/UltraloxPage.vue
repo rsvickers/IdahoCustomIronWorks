@@ -169,7 +169,7 @@ export default {
         // Logic to change images every 5 seconds
         setInterval(() => {
             this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-        }, 3000);
+        }, 2000);
     }
 };
 </script>

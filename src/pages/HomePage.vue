@@ -1,4 +1,27 @@
-<script setup>
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358', caption: 'Image 1' },
+        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421247711_805891481577713_2508292849161234904_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uudPkntXJoAb5oVJkL&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWeSRTFC-jvAzdsFBKdCLdLDseiniaHl0Y-O0_CoH9HA&oe=662CAF06', caption: 'Image 2' },
+        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C', caption: 'Image 3' }
+      ],
+      currentImageIndex: 0
+    };
+  },
+  computed: {
+    currentImage() {
+      return this.images[this.currentImageIndex];
+    }
+  },
+  mounted() {
+    // Logic to change images every 5 seconds
+    setInterval(() => {
+      this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+    }, 3000);
+  }
+};
 
 </script>
 
@@ -64,7 +87,7 @@
         <p class="mt-3">Idaho Custom Iron Works is your premier destination for exquisite custom balconies and rails,
           designed to elevate
           the aesthetics and safety of commercial spaces. With a passion for craftsmanship and a dedication to
-          excellence, we specialize in crafting bespoke iron structures that seamlessly integrate functionality with
+          excellence, we specialize in crafting custom made iron structures that seamlessly integrate functionality with
           style. Whether you're envisioning a striking balcony overlooking a bustling cityscape or sturdy yet elegant
           railings for a commercial property, our skilled artisans are here to turn your vision into reality. Explore
           our portfolio to witness the beauty and durability of our ironwork, and let us bring an unparalleled level
@@ -95,7 +118,7 @@
     </section>
 
 
-    <!-- <section class="row mt-5 mb-2">
+    <section class="row mt-5 mb-2">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
         <img class="img-fluid rounded coolImg mb-3"
           src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/406189883_770513675115494_8499299986155006685_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N97Ky8dM1KIAb5het3s&_nc_ht=scontent-sea1-1.xx&oh=00_AfAR8n6i3Tq8KW8y8h5ygKdjY6mghgNYteY0LXRe3LqkSg&oe=662CBCBE"
@@ -108,7 +131,7 @@
           <p class="mt-4">Click here to learn more about our custom work!</p>
         </router-link>
       </div>
-    </section> -->
+    </section>
 
 
   </div>
