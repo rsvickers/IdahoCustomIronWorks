@@ -95,7 +95,7 @@
     </section>
 
 
-    <section class="row mt-5 mb-2">
+    <!-- <section class="row mt-5 mb-2">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
         <img class="img-fluid rounded coolImg mb-3"
           src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/406189883_770513675115494_8499299986155006685_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N97Ky8dM1KIAb5het3s&_nc_ht=scontent-sea1-1.xx&oh=00_AfAR8n6i3Tq8KW8y8h5ygKdjY6mghgNYteY0LXRe3LqkSg&oe=662CBCBE"
@@ -108,7 +108,7 @@
           <p class="mt-4">Click here to learn more about our custom work!</p>
         </router-link>
       </div>
-    </section>
+    </section> -->
 
 
   </div>
