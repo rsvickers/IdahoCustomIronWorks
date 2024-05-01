@@ -120,7 +120,7 @@ export default {
             </div>
         </section>
 
-        <section class="row mt-5 mb-5">
+        <section class="row mt-5 mx-3 mb-3">
             <div class="col-3 d-flex mt-4">
                 <img class="img-fluid smallImg rounded mx-3"
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
@@ -132,7 +132,24 @@ export default {
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C"
                     alt="">
                 <img class="img-fluid smallImg rounded mx-3"
+                    src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797685735663440832&th=18f2a9a6ec0193c0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-c7u_9jTlWbiELcX00-GNfs4-43FboARwzt9Yuhv9Nhxh3MmUCbVeLJFwBxeyN2i5J1hlkP0EAl4pXRTmZptuOfnGzy7RVp53DH4HvIZEkLknDv3ezNeST_Bw&disp=emb&realattid=18f2a994ae0f8fd8de66"
+                    alt="">
+            </div>
+        </section>
+
+        <section class="row  mx-3 mb-3">
+            <div class="col-3 d-flex mt-4">
+                <img class="img-fluid smallImg rounded mx-3"
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
+                    alt="">
+                <img class="img-fluid smallImg rounded mx-3"
+                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421247711_805891481577713_2508292849161234904_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uudPkntXJoAb5oVJkL&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWeSRTFC-jvAzdsFBKdCLdLDseiniaHl0Y-O0_CoH9HA&oe=662CAF06"
+                    alt="">
+                <img class="img-fluid smallImg rounded mx-3"
+                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C"
+                    alt="">
+                <img class="img-fluid smallImg rounded mx-3"
+                    src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797685735663440832&th=18f2a9a6ec0193c0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-c7u_9jTlWbiELcX00-GNfs4-43FboARwzt9Yuhv9Nhxh3MmUCbVeLJFwBxeyN2i5J1hlkP0EAl4pXRTmZptuOfnGzy7RVp53DH4HvIZEkLknDv3ezNeST_Bw&disp=emb&realattid=18f2a994ae0f8fd8de66"
                     alt="">
             </div>
         </section>
@@ -183,7 +200,7 @@ export default {
 }
 
 .smallImg {
-    max-height: 35dvh;
+    max-height: 30dvh;
     width: 45dvh;
     box-shadow: 5px 5px 20px black;
 }
