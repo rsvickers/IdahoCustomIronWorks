@@ -4,9 +4,11 @@ export default {
     return {
       images: [
         'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
+        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
         'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
         'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
-        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
+        // 'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
+        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372',
         // Add more image URLs here
       ],
       currentIndex: 0,
@@ -159,6 +161,38 @@ export default {
       </div>
     </section>
 
+    <section class="row mt-5 mb-2">
+      <div class="col-12">
+        <h1 class="text-center">Who we work with!</h1>
+      </div>
+      <div class="mt-2 mb-2">
+        <marquee behavior="" direction="">
+          <div class="d-flex align-items-center">
+            <div class="mx-5">
+              <img class="img-fluid logo"
+                src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
+                alt="">
+            </div>
+
+            <div class="mx-5">
+              <img class="img-fluid logo"
+                src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
+            </div>
+
+            <div class="mx-5">
+              <img class="img-fluid logo rounded"
+                src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
+                alt="">
+            </div>
+
+            <div>
+              <h4 class="mx-5">Superior Deck</h4>
+            </div>
+          </div>
+        </marquee>
+      </div>
+    </section>
+
 
   </div>
 </template>
@@ -197,5 +231,10 @@ export default {
   max-height: 45dvh;
   width: 65dvh;
   box-shadow: 5px 5px 20px black;
+}
+
+.logo {
+  max-height: 25dvh;
+  max-width: 30dvh;
 }
 </style>
