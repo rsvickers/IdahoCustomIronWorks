@@ -3,31 +3,48 @@ export default {
   data() {
     return {
       images: [
-        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358', caption: 'Image 1' },
-        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421247711_805891481577713_2508292849161234904_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uudPkntXJoAb5oVJkL&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWeSRTFC-jvAzdsFBKdCLdLDseiniaHl0Y-O0_CoH9HA&oe=662CAF06', caption: 'Image 2' },
-        { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C', caption: 'Image 3' }
+        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
+        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
+        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
+        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
+        // Add more image URLs here
       ],
-      currentImageIndex: 0
+      currentIndex: 0,
     };
   },
   computed: {
     currentImage() {
-      return this.images[this.currentImageIndex];
-    }
+      return this.images[this.currentIndex];
+    },
   },
   mounted() {
-    // Logic to change images every 5 seconds
-    setInterval(() => {
-      this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-    }, 3000);
-  }
+    // Start the slideshow when the component is mounted
+    this.startSlideshow();
+  },
+  methods: {
+    startSlideshow() {
+      // Set interval to change image every 5 seconds (5000 milliseconds)
+      this.slideshowInterval = setInterval(() => {
+        this.nextImage();
+      }, 2500); // Adjust timing as needed
+    },
+    nextImage() {
+      // Increment index, reset to 0 if at the end of the array
+      this.currentIndex = (this.currentIndex + 1) % this.images.length;
+    },
+  },
+  beforeUnmount() {
+    // Clear the interval when the component is destroyed to prevent memory leaks
+    clearInterval(this.slideshowInterval);
+  },
 };
-
 </script>
+
 
 <template>
   <div class="container-fluid">
-    <section class="row heroImg box">
+    <section class="row heroImg box" :style="{ 'background-image': 'url(' + currentImage + ')' }">
+      <!-- <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" /> -->
       <div class="col-12 text-light box rounded p-2 mt-3 text-center text-shadow">
         <h1 class="">Idaho Custom Iron Works</h1>
         <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
@@ -139,7 +156,7 @@ export default {
 
 <style scoped lang="scss">
 .heroImg {
-  background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg);
+  // background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg);
   background-size: cover;
   background-position: center;
   min-height: 65dvh;
@@ -165,6 +182,9 @@ export default {
 }
 
 .coolImg {
+  background-image: url(currentImage);
+  background-size: cover;
+  background-position: center;
   max-height: 45dvh;
   width: 65dvh;
   box-shadow: 5px 5px 20px black;
