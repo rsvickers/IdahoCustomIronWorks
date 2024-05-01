@@ -47,10 +47,15 @@ export default {
       <!-- <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" /> -->
       <div class="col-12 text-light box rounded p-2 mt-3 text-center text-shadow">
         <h1 class="">Idaho Custom Iron Works</h1>
-        <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
+        <!-- <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
           owned,
           family operated and licensed in both Idaho and Oregon. We have over 15 years experience doing Commercial and
-          Residential Metal Fabrication and install. </h5>
+          Residential Metal Fabrication and install. </h5> -->
+        <h6>We're not just any fabrication company; we specialize in crafting custom ironworks tailored to our clients'
+          unique visions. Idaho Custom Iron Works combines over 15 years of experience with our dedication to exceeding
+          expectations. As a locally owned and family-operated business licensed in both Idaho and Oregon, we take pride
+          in delivering exceptional results in both commercial and residential projects. Your imagination is our
+          blueprint, and we're here to turn your ideas into stunning realities.</h6>
       </div>
     </section>
 
@@ -143,7 +148,11 @@ export default {
       </div>
       <div class="col-12 col-md-7 text-center order-1 order-md-2">
         <h2>Custom Work</h2>
-        <p class="mt-3">Figure out what to say for this with troy!</p>
+        <p class="mt-3">From initial concept to final installation, we collaborate closely with our clients, ensuring
+          that every detail surpasses expectations.
+          Explore our portfolio to discover the beauty and diversity of our custom work. Join us on a journey where
+          imagination knows no bounds and where iron becomes more than just a material—it becomes a testament to the
+          beauty of craftsmanship and the power of individuality.</p>
         <router-link :to="{ name: 'Custom' }">
           <p class="mt-4">Click here to learn more about our custom work!</p>
         </router-link>
