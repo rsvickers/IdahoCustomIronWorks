@@ -2,37 +2,37 @@
     <div class="container-fluid">
         <section class="row mt-4 mb-2 justify-content-center">
             <h2 class="mt-4 mb-3 text-center funFont">Check out our Custom Work</h2>
-            <div class="col-12 d-flex justify-content-center mt-3">
+            <div class="col-12 col-md-8 d-flex justify-content-center mt-3">
                 <img class="coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" />
             </div>
         </section>
 
         <section class="row mt-5 mx-3 mb-3">
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus1.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus2.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus3.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus4.jpg" alt="">
             </div>
         </section>
 
         <section class="row mt-5 mx-3 mb-3">
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus5.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus6.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus7.jpg" alt="">
             </div>
-            <div class="col-3 d-flex mt-4 img-fluid">
+            <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
                 <img class="smallImg rounded mx-3" src="/src/assets/img/cus8.jpg" alt="">
             </div>
         </section>
@@ -81,7 +81,9 @@ export default {
 <style scoped>
 .coolImg {
     height: 65dvh;
-    width: 100dvh;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
     box-shadow: 5px 5px 20px black;
 }
 

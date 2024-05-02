@@ -53,12 +53,12 @@ function toggleTheme() {
               </router-link>
             </li>
           </ul>
-          <div>
+          <!-- <div>
             <button class="btn text-light" @click="toggleTheme"
               :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
               <i class="mdi" :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i>
             </button>
-          </div>
+          </div> -->
           <!-- LOGIN COMPONENT HERE -->
           <!-- <Login /> -->
         </div>
