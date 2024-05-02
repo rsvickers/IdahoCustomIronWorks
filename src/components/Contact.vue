@@ -4,12 +4,12 @@
 
 <template>
     <section class="row align-items-center justify-content-center my-3 funFont">
-        <div class="col-4">
+        <div class="col-md-4 col-12">
             If you are interested in working with us please reach out! <br>
             We look forward to working with you!
         </div>
         <div class="col-auto">
-            <div class="card shadow rounded p-3 d-flex flex-row align-items-center">
+            <div class="card shadow rounded p-3 d-flex flex-row flex-wrap align-items-center">
                 <p class="m-3">
                     Phone: 208-602-2780 <br>
                     Email: Read@icironworks.com
