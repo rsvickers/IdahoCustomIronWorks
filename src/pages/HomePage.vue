@@ -1,5 +1,6 @@
 <script>
 export default {
+
   data() {
     return {
       images: [
@@ -44,7 +45,7 @@ export default {
 
 
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid funFont">
     <section class="row heroImg box" :style="{ 'background-image': 'url(' + currentImage + ')' }">
       <!-- <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" /> -->
       <div class="col-12 text-light box rounded p-2 mt-3 text-center text-shadow">
@@ -165,33 +166,35 @@ export default {
       <div class="col-12">
         <h1 class="text-center">Who we work with!</h1>
       </div>
-      <div class="mt-2 mb-2">
-        <marquee behavior="" direction="">
-          <div class="d-flex align-items-center">
-            <div class="mx-5">
+      <div class="mt-3 mb-3">
+        <!-- <marquee behavior="" direction=""> -->
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="mx-5">
+            <a href="https://ultralox.com/" title="Click Here to see the UltraLox Website!">
               <img class="img-fluid logo"
                 src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
                 alt="">
-            </div>
-
-            <div class="mx-5">
-              <img class="img-fluid logo"
-                src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
-            </div>
-
-            <div class="mx-5">
-              <img class="img-fluid logo rounded"
-                src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
-                alt="">
-            </div>
-
-            <div class="mx-5">
-              <img class="img-fluid logo rounded"
-                src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
-            </div>
-
+            </a>
           </div>
-        </marquee>
+
+          <div class="mx-5">
+            <img class="img-fluid logo"
+              src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
+          </div>
+
+          <div class="mx-5">
+            <img class="img-fluid logo rounded"
+              src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
+              alt="">
+          </div>
+
+          <div class="mx-5">
+            <img class="img-fluid logo rounded"
+              src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
+          </div>
+
+        </div>
+        <!-- </marquee> -->
       </div>
     </section>
 
@@ -238,5 +241,11 @@ export default {
 .logo {
   max-height: 25dvh;
   max-width: 30dvh;
+}
+
+.funFont {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 </style>
