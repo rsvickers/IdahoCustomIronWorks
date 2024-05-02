@@ -1,47 +1,65 @@
 <template>
     <div class="container-fluid">
         <section class="row mt-4 mb-2 justify-content-center">
-            <h3 class="mt-4 mb-5 text-center">Check out our Commercial Work</h3>
+            <h2 class="mt-4 mb-3 text-center funFont">Check out our Commercial Work</h2>
             <div class="col-12 d-flex justify-content-center mt-3">
-                <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" />
+                <img class="coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" />
             </div>
         </section>
 
-        <section class="row mt-5 mb-5">
-            <div class="col-3 d-flex mt-4">
-                <img class="img-fluid smallImg rounded mx-3"
-                    src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1797854379888389112&th=18f343087720abf8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-meT1gSCh9TFCjq7SN4nYxnrjxEH957VqMlF4rDa4RSbpYgFNEdGZVL5q4IQlEOFBzb8pXXX1KqTUKssLRBJ6KJQKA2Rt7Y4WLptkczVYUS-6BjmB9IBsg15Q&disp=emb&realattid=18f342e79f8ea4a6df22"
-                    alt="">
-                <img class="img-fluid smallImg rounded mx-3"
-                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
-                    alt="">
-                <img class="img-fluid smallImg rounded mx-3"
-                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
-                    alt="">
-                <img class="img-fluid smallImg rounded mx-3"
-                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
-                    alt="">
+        <section class="row mt-5 mx-3 mb-3">
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com1.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com2.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com3.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com4.jpg" alt="">
             </div>
         </section>
 
+        <section class="row mt-5 mx-3 mb-3">
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com5.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com6.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com7.jpg" alt="">
+            </div>
+            <div class="col-3 d-flex mt-4 img-fluid">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/_com8.jpg" alt="">
+            </div>
+        </section>
 
         <section class="row">
             <div class="col-12">
                 <Contact />
             </div>
         </section>
+
     </div>
 </template>
 
 <script>
+
 import Contact from '../components/Contact.vue'
 export default {
     data() {
         return {
             images: [
-                { url: 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1797854379888389112&th=18f343087720abf8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-meT1gSCh9TFCjq7SN4nYxnrjxEH957VqMlF4rDa4RSbpYgFNEdGZVL5q4IQlEOFBzb8pXXX1KqTUKssLRBJ6KJQKA2Rt7Y4WLptkczVYUS-6BjmB9IBsg15Q&disp=emb&realattid=18f342e79f8ea4a6df22', caption: 'Image 1' },
-                { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421247711_805891481577713_2508292849161234904_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uudPkntXJoAb5oVJkL&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWeSRTFC-jvAzdsFBKdCLdLDseiniaHl0Y-O0_CoH9HA&oe=662CAF06', caption: 'Image 2' },
-                { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C', caption: 'Image 3' }
+                { url: '/src/assets/img/_com1.jpg', caption: 'Image 1' },
+                { url: '/src/assets/img/_com2.jpg', caption: 'Image 2' },
+                { url: '/src/assets/img/_com3.jpg', caption: 'Image 3' },
+                { url: '/src/assets/img/_com5.jpg', caption: 'Image 4' },
+                { url: '/src/assets/img/_com6.jpg', caption: 'Image 5' },
+                { url: '/src/assets/img/_com7.jpg', caption: 'Image 6' },
+                { url: '/src/assets/img/_com8.jpg', caption: 'Image 6' },
             ],
             currentImageIndex: 0
         };
@@ -55,13 +73,12 @@ export default {
         // Logic to change images every 5 seconds
         setInterval(() => {
             this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-        }, 3000);
+        }, 2000);
     }
 };
 </script>
 
 <style scoped>
-/* Add styles if necessary */
 .coolImg {
     height: 65dvh;
     width: 100dvh;
@@ -69,13 +86,17 @@ export default {
 }
 
 .smallImg {
-    max-height: 35dvh;
-    width: 45dvh;
+    height: 15rem;
+    width: 30rem;
+    object-position: center;
+    object-fit: cover;
     box-shadow: 5px 5px 20px black;
+    overflow: hidden
 }
 
-.ultralox {
-    max-height: 40dvh;
-    width: 55dvh;
+.funFont {
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 </style>
