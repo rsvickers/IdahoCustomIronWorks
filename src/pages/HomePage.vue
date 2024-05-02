@@ -178,19 +178,26 @@ export default {
           </div>
 
           <div class="mx-5">
-            <img class="img-fluid logo"
-              src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
+            <a href="https://www.harmonyrailing.com/" title="Click Here to see the Harmony Website!">
+              <img class="img-fluid logo"
+                src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
+            </a>
           </div>
 
           <div class="mx-5">
-            <img class="img-fluid logo rounded"
-              src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
-              alt="">
+            <a href="https://www.viewrail.com/?hsa_grp=1245747043062995&hsa_net=adwords&hsa_src=o&hsa_ad=&hsa_tgt=kwd-77859376985053:loc-190&hsa_kw=viewrail&hsa_cam=1584923268&hsa_acc=7699129968&hsa_mt=e&hsa_ver=3&msclkid=fe1d19961b781bcf6eb87fa58402b715&utm_source=bing&utm_medium=cpc&utm_campaign=Viewrail%20-%20Brand%20-%20Search%20-%20VR%20-%20Bing&utm_term=viewrail&utm_content=Viewrail"
+              title="Click Here to see the ViewRail Website!">
+              <img class="img-fluid logo rounded"
+                src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
+                alt="">
+            </a>
           </div>
 
           <div class="mx-5">
-            <img class="img-fluid logo rounded"
-              src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
+            <a href="https://superiordecksmfg.com/" title="Click here to see the Superior Deck Website!">
+              <img class="img-fluid logo rounded"
+                src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
+            </a>
           </div>
 
         </div>
