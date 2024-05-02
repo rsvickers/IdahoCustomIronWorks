@@ -255,7 +255,6 @@ export default {
 }
 
 .funFont {
-  // font-family: "Crete Round", serif;
   font-family: "Tektur", sans-serif;
   font-weight: 400;
   font-style: normal;
