@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#d6ed2999",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#d6ed29"
+    "peacock.color": "#d6ed29",
+    "cSpell.words": [
+        "Tektur"
+    ]
 }

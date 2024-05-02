@@ -1,8 +1,6 @@
 <script setup>
 import { AppState } from './AppState'
 import Navbar from './components/Navbar.vue'
-
-
 </script>
 
 <template>

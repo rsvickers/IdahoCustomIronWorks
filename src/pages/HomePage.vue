@@ -1,64 +1,23 @@
-<script>
-export default {
-
-  data() {
-    return {
-      images: [
-        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
-        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
-        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
-        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
-        // 'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
-        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372',
-        // Add more image URLs here
-      ],
-      currentIndex: 0,
-    };
-  },
-  computed: {
-    currentImage() {
-      return this.images[this.currentIndex];
-    },
-  },
-  mounted() {
-    // Start the slideshow when the component is mounted
-    this.startSlideshow();
-  },
-  methods: {
-    startSlideshow() {
-      // Set interval to change image every 5 seconds (5000 milliseconds)
-      this.slideshowInterval = setInterval(() => {
-        this.nextImage();
-      }, 2500); // Adjust timing as needed
-    },
-    nextImage() {
-      // Increment index, reset to 0 if at the end of the array
-      this.currentIndex = (this.currentIndex + 1) % this.images.length;
-    },
-  },
-  beforeUnmount() {
-    // Clear the interval when the component is destroyed to prevent memory leaks
-    clearInterval(this.slideshowInterval);
-  },
-};
-</script>
-
-
 <template>
   <div class="container-fluid funFont">
     <section class="row heroImg box" :style="{ 'background-image': 'url(' + currentImage + ')' }">
       <!-- <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" /> -->
-      <div class="col-12 text-light box rounded p-2 mt-3 text-center text-shadow">
-        <h1 class="">Idaho Custom Iron Works</h1>
-        <!-- <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
-          owned,
-          family operated and licensed in both Idaho and Oregon. We have over 15 years experience doing Commercial and
+      <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
+        <div class="p-4 p-md-5 box">
+          <h1 class="">Idaho Custom Iron Works</h1>
+          <!-- <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
+            owned,
+            family operated and licensed in both Idaho and Oregon. We have over 15 years experience doing Commercial and
           Residential Metal Fabrication and install. </h5> -->
-        <h6>We're not just any fabrication company; we specialize in crafting custom ironworks tailored to our clients'
-          unique visions. Idaho Custom Iron Works combines over 15 years of experience with our dedication to exceeding
-          expectations. As a locally owned and family-operated business licensed in both Idaho and Oregon, we take pride
-          in delivering exceptional results in both commercial and residential projects. Your imagination is our
-          blueprint, and we're here to turn your ideas into stunning realities.</h6>
+          <h6>We're not just any fabrication company; we specialize in crafting custom ironworks tailored to our
+            clients'
+            unique visions. Idaho Custom Iron Works combines over 15 years of experience with our dedication to
+            exceeding
+            expectations. As a locally owned and family-operated business licensed in both Idaho and Oregon, we take
+            pride
+            in delivering exceptional results in both commercial and residential projects. Your imagination is our
+            blueprint, and we're here to turn your ideas into stunning realities.</h6>
+        </div>
       </div>
     </section>
 
@@ -209,6 +168,53 @@ export default {
   </div>
 </template>
 
+
+<script>
+export default {
+
+  data() {
+    return {
+      images: [
+        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
+        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
+        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
+        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
+        // 'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
+        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372'
+        // Add more image URLs here
+      ],
+      currentIndex: 0,
+    };
+  },
+  computed: {
+    currentImage() {
+      return this.images[this.currentIndex];
+    },
+  },
+  mounted() {
+    // Start the slideshow when the component is mounted
+    this.startSlideshow();
+  },
+  methods: {
+    startSlideshow() {
+      // Set interval to change image every 5 seconds (5000 milliseconds)
+      this.slideshowInterval = setInterval(() => {
+        this.nextImage();
+      }, 2500); // Adjust timing as needed
+    },
+    nextImage() {
+      // Increment index, reset to 0 if at the end of the array
+      this.currentIndex = (this.currentIndex + 1) % this.images.length;
+    },
+  },
+  beforeUnmount() {
+    // Clear the interval when the component is destroyed to prevent memory leaks
+    clearInterval(this.slideshowInterval);
+  },
+};
+</script>
+
+
 <style scoped lang="scss">
 .heroImg {
   // background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg);
@@ -219,7 +225,6 @@ export default {
 
 .box {
   background-color: rgba(52, 52, 52, 0.785);
-  border-radius: 1%;
   min-width: 45vw;
   max-height: 100vh;
   align-items: center;
