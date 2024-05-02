@@ -49,15 +49,21 @@
 <script>
 
 import Contact from '../components/Contact.vue'
+import res2 from '../assets/img/res2.jpg'
+import res3 from '../assets/img/res3.jpg'
+import res5 from '../assets/img/res5.jpg'
+import res7 from '../assets/img/res7.jpg'
+import res8 from '../assets/img/res8.jpeg'
 export default {
     data() {
         return {
             images: [
-                { url: '/src/assets/img/res2.jpg', caption: 'Image 2' },
-                { url: '/src/assets/img/res3.jpg', caption: 'Image 3' },
-                { url: '/src/assets/img/res5.jpg', caption: 'Image 4' },
-                { url: '/src/assets/img/res7.jpg', caption: 'Image 6' },
-                { url: '/src/assets/img/res8.jpeg', caption: 'Image 6' },
+                { url: res2, caption: 'Image 2' },
+                { url: res3, caption: 'Image 2' },
+                { url: res5, caption: 'Image 2' },
+                { url: res7, caption: 'Image 2' },
+                { url: res8, caption: 'Image 2' },
+
             ],
             currentImageIndex: 0
         };

@@ -49,17 +49,24 @@
 <script>
 
 import Contact from '../components/Contact.vue'
+import cus1 from '../assets/img/cus1.jpg'
+import cus2 from '../assets/img/cus2.jpg'
+import cus3 from '../assets/img/cus3.jpg'
+import cus4 from '../assets/img/cus4.jpg'
+import cus5 from '../assets/img/cus5.jpg'
+import cus6 from '../assets/img/cus6.jpg'
+import cus7 from '../assets/img/cus7.jpg'
 export default {
     data() {
         return {
             images: [
-                { url: '/src/assets/img/cus4.jpg', caption: 'Image 6' },
-                { url: '/src/assets/img/cus3.jpg', caption: 'Image 4' },
-                { url: '/src/assets/img/cus1.jpg', caption: 'Image 2' },
-                { url: '/src/assets/img/cus2.jpg', caption: 'Image 3' },
-                { url: '/src/assets/img/cus5.jpg', caption: 'Image 6' },
-                { url: '/src/assets/img/cus6.jpg', caption: 'Image 6' },
-                { url: '/src/assets/img/cus7.jpg', caption: 'Image 6' },
+                { url: cus4, caption: 'Image 4' },
+                { url: cus3, caption: 'Image 3' },
+                { url: cus1, caption: 'Image 1' },
+                { url: cus2, caption: 'Image 2' },
+                { url: cus5, caption: 'Image 5' },
+                { url: cus6, caption: 'Image 6' },
+                { url: cus7, caption: 'Image 7' },
             ],
             currentImageIndex: 0
         };

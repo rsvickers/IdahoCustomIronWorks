@@ -46,15 +46,11 @@
       <div class="col-12 col-md-5 text-center mt-3">
         <div>
           <h5>Before</h5>
-          <img
-            src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/420474234_803642351802626_7995411150805441809_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6NswcLJK6xMAb4PZDGj&_nc_ht=scontent-sea1-1.xx&oh=00_AfABzPhPqCbbFTnjQjl34ONw1rNW-qeMVrS9BgBGjDdNKg&oe=66276C6F"
-            alt="" class="img-fluid beforeAndAfter rounded">
+          <img src="/src/assets/img/before1.jpg" alt="" class="img-fluid beforeAndAfter rounded">
         </div>
         <div>
           <h5 class="mt-5">After</h5>
-          <img
-            src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1796706135910266378&th=18ef2eb614b2360a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ84vIuwYSu3MP_w5_W9WqXBgwSO9_exPuSBUI4zeXTP3o0LKaUin_IApM9mmEMfs8Uq5LIHNwnyxQj1DrsN6AsVIhjyne2Bd9p2dbDxvoldISbqt0zTk1oAsZ0&disp=emb&realattid=18ef2eb16c452350c661"
-            alt="" class="img-fluid beforeAndAfter rounded">
+          <img src="/src/assets/img/after1.jpg" alt="" class="img-fluid beforeAndAfter rounded">
         </div>
       </div>
     </section>
@@ -168,19 +164,17 @@
 
 
 <script>
+import fp1 from '../assets/img/fp1.jpg'
+import fp2 from '../assets/img/fp2.jpg'
+import fp3 from '../assets/img/fp3.jpg'
 export default {
 
   data() {
     return {
       images: [
-        '/src/assets/img/20240124_152024.jpg',
-        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
-        // 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
-        'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
-        'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
-        // 'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
-        // 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372'
-        // Add more image URLs here
+        fp1,
+        fp2,
+        fp3,
       ],
       currentIndex: 0,
     };

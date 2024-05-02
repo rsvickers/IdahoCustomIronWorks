@@ -47,19 +47,26 @@
 </template>
 
 <script>
-
 import Contact from '../components/Contact.vue'
+import com1 from '../assets/img/_com1.jpg'
+import com2 from '../assets/img/_com2.jpg'
+import com3 from '../assets/img/_com3.jpg'
+import com5 from '../assets/img/_com5.jpg'
+import com6 from '../assets/img/_com6.jpg'
+import com7 from '../assets/img/_com7.jpg'
+import com8 from '../assets/img/_com8.jpg'
+
 export default {
     data() {
         return {
             images: [
-                { url: '/src/assets/img/_com1.jpg', caption: 'Image 1' },
-                { url: '/src/assets/img/_com2.jpg', caption: 'Image 2' },
-                { url: '/src/assets/img/_com3.jpg', caption: 'Image 3' },
-                { url: '/src/assets/img/_com5.jpg', caption: 'Image 4' },
-                { url: '/src/assets/img/_com6.jpg', caption: 'Image 5' },
-                { url: '/src/assets/img/_com7.jpg', caption: 'Image 6' },
-                { url: '/src/assets/img/_com8.jpg', caption: 'Image 6' },
+                { url: com1, caption: 'Image 1' },
+                { url: com2, caption: 'Image 2' },
+                { url: com3, caption: 'Image 3' },
+                { url: com5, caption: 'Image 4' },
+                { url: com6, caption: 'Image 5' },
+                { url: com7, caption: 'Image 6' },
+                { url: com8, caption: 'Image 7' },
             ],
             currentImageIndex: 0
         };
