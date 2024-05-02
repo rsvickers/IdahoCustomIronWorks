@@ -185,9 +185,11 @@ export default {
                 alt="">
             </div>
 
-            <div>
-              <h4 class="mx-5">Superior Deck</h4>
+            <div class="mx-5">
+              <img class="img-fluid logo rounded"
+                src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
             </div>
+
           </div>
         </marquee>
       </div>

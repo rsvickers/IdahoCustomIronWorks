@@ -10,7 +10,7 @@
         <section class="row mt-5 mb-5">
             <div class="col-3 d-flex mt-4">
                 <img class="img-fluid smallImg rounded mx-3"
-                    src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
+                    src="https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1797854379888389112&th=18f343087720abf8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-meT1gSCh9TFCjq7SN4nYxnrjxEH957VqMlF4rDa4RSbpYgFNEdGZVL5q4IQlEOFBzb8pXXX1KqTUKssLRBJ6KJQKA2Rt7Y4WLptkczVYUS-6BjmB9IBsg15Q&disp=emb&realattid=18f342e79f8ea4a6df22"
                     alt="">
                 <img class="img-fluid smallImg rounded mx-3"
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358"
@@ -39,7 +39,7 @@ export default {
     data() {
         return {
             images: [
-                { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421277820_805891488244379_5392141397176057853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XvMJlPy6rbUAb7QzFXw&_nc_ht=scontent-sea1-1.xx&oh=00_AfD1xOlvGmhmJFZbRmUwaWlcGPkFbNC4t3lWaA6AwyjThQ&oe=662CB358', caption: 'Image 1' },
+                { url: 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.1&permmsgid=msg-f:1797854379888389112&th=18f343087720abf8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-meT1gSCh9TFCjq7SN4nYxnrjxEH957VqMlF4rDa4RSbpYgFNEdGZVL5q4IQlEOFBzb8pXXX1KqTUKssLRBJ6KJQKA2Rt7Y4WLptkczVYUS-6BjmB9IBsg15Q&disp=emb&realattid=18f342e79f8ea4a6df22', caption: 'Image 1' },
                 { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421247711_805891481577713_2508292849161234904_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uudPkntXJoAb5oVJkL&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWeSRTFC-jvAzdsFBKdCLdLDseiniaHl0Y-O0_CoH9HA&oe=662CAF06', caption: 'Image 2' },
                 { url: 'https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/421249062_805891474911047_6568836907381943794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N_11mRCmfhsAb67Qhdl&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWnHJGogpsqyPwJI8iZua4bkULseh1dmqCuHl5c1IMfQ&oe=662C974C', caption: 'Image 3' }
             ],
@@ -63,7 +63,7 @@ export default {
 <style scoped>
 /* Add styles if necessary */
 .coolImg {
-    max-height: 75dvh;
+    height: 65dvh;
     width: 100dvh;
     box-shadow: 5px 5px 20px black;
 }
