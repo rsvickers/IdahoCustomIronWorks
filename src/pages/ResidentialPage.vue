@@ -53,11 +53,9 @@ export default {
     data() {
         return {
             images: [
-                // { url: '/src/assets/img/res1.jpg', caption: 'Image 1' },
                 { url: '/src/assets/img/res2.jpg', caption: 'Image 2' },
                 { url: '/src/assets/img/res3.jpg', caption: 'Image 3' },
                 { url: '/src/assets/img/res5.jpg', caption: 'Image 4' },
-                // { url: '/src/assets/img/res6.jpg', caption: 'Image 5' },
                 { url: '/src/assets/img/res7.jpg', caption: 'Image 6' },
                 { url: '/src/assets/img/res8.jpeg', caption: 'Image 6' },
             ],
