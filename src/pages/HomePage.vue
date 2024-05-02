@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <section class="row mt-4 mb-2">
+    <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-7 text-center">
         <img class="img-fluid"
           src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
@@ -40,7 +40,7 @@
         <p> We are the only dealers in the Treasure Valley offering this system! If you would like more information call
           Idaho Custom Iron Works 208-602-2780</p>
         <router-link :to="{ name: 'UltraLox' }">
-          <p class="mt-4">Click here to learn more about UltraLox!</p>
+          <p class="mt-4">Click here to see more of UltraLox!</p>
         </router-link>
       </div>
       <div class="col-12 col-md-5 text-center mt-3">
@@ -60,7 +60,7 @@
     </section>
 
 
-    <section class="row mt-5 mb-2">
+    <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
         <img class="img-fluid rounded coolImg"
           src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/420902139_805051591661702_8527944067580198862_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PY9apN3NUj0Ab4Dbs50&_nc_ht=scontent-sea1-1.xx&oh=00_AfC7QVLd7TLGdD6PI0sB1ZuqWqJktbD2r35nPu5m0zluhg&oe=662C96ED"
@@ -77,12 +77,12 @@
           our portfolio to witness the beauty and durability of our ironwork, and let us bring an unparalleled level
           of sophistication and security to your commercial project</p>
         <router-link :to="{ name: 'Commercial' }">
-          <p class="mt-4">Click here to learn more about our commercial work!</p>
+          <p class="mt-4">Click here to see more of our commercial work!</p>
         </router-link>
       </div>
     </section>
 
-    <section class="row mt-5 mb-2">
+    <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-7 text-center">
         <h2>Residential Work</h2>
         <p>Elevate your residential spaces with our exquisite ironwork, meticulously designed to enhance both the beauty
@@ -91,7 +91,7 @@
           work closely with you to bring your vision to life, ensuring a seamless integration of functionality and
           aesthetics.</p>
         <router-link :to="{ name: 'Residential' }">
-          <p class="mt-4">Click here to learn more about our residential work!</p>
+          <p class="mt-4">Click here to see more of our residential work!</p>
         </router-link>
       </div>
       <div class="col-12 col-md-5 d-flex justify-content-center">
@@ -102,7 +102,7 @@
     </section>
 
 
-    <section class="row mt-5 mb-2">
+    <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
         <img class="img-fluid rounded coolImg mb-3"
           src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/406189883_770513675115494_8499299986155006685_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N97Ky8dM1KIAb5het3s&_nc_ht=scontent-sea1-1.xx&oh=00_AfAR8n6i3Tq8KW8y8h5ygKdjY6mghgNYteY0LXRe3LqkSg&oe=662CBCBE"
@@ -116,50 +116,48 @@
           imagination knows no bounds and where iron becomes more than just a material—it becomes a testament to the
           beauty of craftsmanship and the power of individuality.</p>
         <router-link :to="{ name: 'Custom' }">
-          <p class="mt-4">Click here to learn more about our custom work!</p>
+          <p class="mt-4">Click here to see more of our custom work!</p>
         </router-link>
       </div>
     </section>
 
-    <section class="row mt-5 mb-2">
-      <div class="col-12">
+    <section class="row mt-5 mb-4">
+      <div class="col-12 mt-4">
         <h1 class="text-center">Who we work with!</h1>
       </div>
-      <div class="mt-3 mb-3">
+      <div class="row align-items-center justify-content-around my-3">
         <!-- <marquee behavior="" direction=""> -->
-        <div class="d-flex align-items-center justify-content-between">
-          <div class="mx-5">
-            <a href="https://ultralox.com/" title="Click Here to see the UltraLox Website!">
-              <img class="img-fluid logo"
-                src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
-                alt="">
-            </a>
-          </div>
-
-          <div class="mx-5">
-            <a href="https://www.harmonyrailing.com/" title="Click Here to see the Harmony Website!">
-              <img class="img-fluid logo"
-                src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
-            </a>
-          </div>
-
-          <div class="mx-5">
-            <a href="https://www.viewrail.com/?hsa_grp=1245747043062995&hsa_net=adwords&hsa_src=o&hsa_ad=&hsa_tgt=kwd-77859376985053:loc-190&hsa_kw=viewrail&hsa_cam=1584923268&hsa_acc=7699129968&hsa_mt=e&hsa_ver=3&msclkid=fe1d19961b781bcf6eb87fa58402b715&utm_source=bing&utm_medium=cpc&utm_campaign=Viewrail%20-%20Brand%20-%20Search%20-%20VR%20-%20Bing&utm_term=viewrail&utm_content=Viewrail"
-              title="Click Here to see the ViewRail Website!">
-              <img class="img-fluid logo rounded"
-                src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
-                alt="">
-            </a>
-          </div>
-
-          <div class="mx-5">
-            <a href="https://superiordecksmfg.com/" title="Click here to see the Superior Deck Website!">
-              <img class="img-fluid logo rounded"
-                src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
-            </a>
-          </div>
-
+        <div class="col mx-5 lighten-30 selectable rounded p-3 d-flex justify-content-center">
+          <a href="https://ultralox.com/" title="Click Here to see the UltraLox Website!" target="_blank">
+            <img class="img-fluid logo"
+              src="https://idahocustomironworks.com/wp-content/uploads/2021/08/UL-Logo-2020-Horizontal-300x59.png"
+              alt="">
+          </a>
         </div>
+
+        <div class="col mx-5 lighten-30 selectable rounded p-3 d-flex justify-content-center">
+          <a href="https://www.harmonyrailing.com/" title="Click Here to see the Harmony Website!" target="_blank">
+            <img class="img-fluid logo"
+              src="https://www.deckandrailing.com/wp-content/uploads/2021/08/Harmony-Railing-Logo-600x151.png" alt="">
+          </a>
+        </div>
+
+        <div class="col mx-5 lighten-30 selectable rounded p-3 d-flex justify-content-center">
+          <a href="https://www.viewrail.com/?hsa_grp=1245747043062995&hsa_net=adwords&hsa_src=o&hsa_ad=&hsa_tgt=kwd-77859376985053:loc-190&hsa_kw=viewrail&hsa_cam=1584923268&hsa_acc=7699129968&hsa_mt=e&hsa_ver=3&msclkid=fe1d19961b781bcf6eb87fa58402b715&utm_source=bing&utm_medium=cpc&utm_campaign=Viewrail%20-%20Brand%20-%20Search%20-%20VR%20-%20Bing&utm_term=viewrail&utm_content=Viewrail"
+            title="Click Here to see the ViewRail Website!" target="_blank">
+            <img class="img-fluid logo rounded"
+              src="https://3944142.fs1.hubspotusercontent-na1.net/hub/3944142/hubfs/Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png?height=120&name=Viewrail-Logo-Sep-23-2021-12-30-42-11-PM.png"
+              alt="">
+          </a>
+        </div>
+
+        <div class="col mx-5 lighten-30 selectable rounded p-3 d-flex justify-content-center">
+          <a href="https://superiordecksmfg.com/" title="Click here to see the Superior Deck Website!" target="_blank">
+            <img class="img-fluid logo rounded"
+              src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
+          </a>
+        </div>
+
         <!-- </marquee> -->
       </div>
     </section>
@@ -175,12 +173,13 @@ export default {
   data() {
     return {
       images: [
+        '/src/assets/img/20240124_152024.jpg',
         'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg',
-        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
+        // 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.2&permmsgid=msg-f:1797858015617073294&th=18f34656f971c08e&view=att&disp=safe&realattid=18f3464e8bcaa6c2dae3',
         'https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236166206.jpg',
         'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-3.jpg',
         // 'https://idahocustomironworks.com/wp-content/themes/Idaho/images/ss-5.jpg',
-        'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372'
+        // 'https://mail.google.com/mail/u/3?ui=2&ik=299a11f884&attid=0.3&permmsgid=msg-f:1797857869538746663&th=18f34634f67f6127&view=att&disp=safe&realattid=18f3462b8417e4b90372'
         // Add more image URLs here
       ],
       currentIndex: 0,
@@ -198,7 +197,7 @@ export default {
   methods: {
     startSlideshow() {
       // Set interval to change image every 5 seconds (5000 milliseconds)
-      this.slideshowInterval = setInterval(() => {
+      this.slideShowInterval = setInterval(() => {
         this.nextImage();
       }, 2500); // Adjust timing as needed
     },
@@ -209,7 +208,7 @@ export default {
   },
   beforeUnmount() {
     // Clear the interval when the component is destroyed to prevent memory leaks
-    clearInterval(this.slideshowInterval);
+    clearInterval(this.slideShowInterval);
   },
 };
 </script>

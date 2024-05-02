@@ -10,12 +10,12 @@ import Navbar from './components/Navbar.vue'
   <main>
     <router-view />
   </main>
-  <footer class="blueBg text-light">
+  <footer class="blueBg text-light py-4">
     <div class="d-flex fs-3">
-      <a href="https://www.facebook.com/ICEFabrication/">
+      <a href="https://www.facebook.com/ICEFabrication/" target="_blank">
         <i class="mdi mdi-facebook mx-3"></i>
       </a>
-      <a href="https://www.instagram.com/idahocustomironworks/">
+      <a href="https://www.instagram.com/idahocustomironworks/" target="_blank">
         <i class="mdi mdi-instagram"></i>
       </a>
     </div>

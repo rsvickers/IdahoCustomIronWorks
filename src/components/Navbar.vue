@@ -17,7 +17,7 @@ function toggleTheme() {
 </script>
 
 <template>
-  <nav class="navbar navbar-dark blueBg px-3 py-0">
+  <nav class="navbar navbar-dark blueBg pe-3 py-0">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" height="65"
