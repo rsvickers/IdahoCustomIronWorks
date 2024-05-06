@@ -1,7 +1,6 @@
 <template>
   <div class="container-fluid funFont">
     <section class="row heroImg box" :style="{ 'background-image': 'url(' + currentImage + ')' }">
-      <!-- <img class="img-fluid coolImg rounded" :src="currentImage.url" :alt="currentImage.caption" /> -->
       <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
         <div class="p-4 p-md-5 box">
           <h1 class="">Idaho Custom Iron Works</h1>
@@ -118,7 +117,6 @@
         <h1 class="text-center">Who we work with!</h1>
       </div>
       <div class="row align-items-center justify-content-around my-3">
-        <!-- <marquee behavior="" direction=""> -->
         <div class="col mx-5 lighten-30 selectable rounded p-3 d-flex justify-content-center">
           <a href="https://ultralox.com/" title="Click Here to see the UltraLox Website!" target="_blank">
             <img class="img-fluid logo"
@@ -149,8 +147,6 @@
               src="https://superiordecksmfg.com/wp-content/uploads/2021/02/Logo-Superior-Deck.png" alt="">
           </a>
         </div>
-
-        <!-- </marquee> -->
       </div>
     </section>
 
@@ -181,23 +177,19 @@ export default {
     },
   },
   mounted() {
-    // Start the slideshow when the component is mounted
     this.startSlideshow();
   },
   methods: {
     startSlideshow() {
-      // Set interval to change image every 5 seconds (5000 milliseconds)
       this.slideShowInterval = setInterval(() => {
         this.nextImage();
-      }, 2500); // Adjust timing as needed
+      }, 2500);
     },
     nextImage() {
-      // Increment index, reset to 0 if at the end of the array
       this.currentIndex = (this.currentIndex + 1) % this.images.length;
     },
   },
   beforeUnmount() {
-    // Clear the interval when the component is destroyed to prevent memory leaks
     clearInterval(this.slideShowInterval);
   },
 };
@@ -206,7 +198,6 @@ export default {
 
 <style scoped lang="scss">
 .heroImg {
-  // background-image: url(https://idahocustomironworks.com/wp-content/uploads/2017/06/FB_IMG_1490236161047.jpg);
   background-size: cover;
   background-position: center;
   min-height: 65dvh;
