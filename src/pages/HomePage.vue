@@ -5,10 +5,6 @@
       <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
         <div class="p-4 p-md-5 box">
           <h1 class="">Idaho Custom Iron Works</h1>
-          <!-- <h5 class="mt-5 p-2">We’re the company that exceeds the clients expectations. Idaho Custom Iron Works is locally
-            owned,
-            family operated and licensed in both Idaho and Oregon. We have over 15 years experience doing Commercial and
-          Residential Metal Fabrication and install. </h5> -->
           <h6>We're not just any fabrication company; we specialize in crafting custom ironworks tailored to our
             clients'
             unique visions. Idaho Custom Iron Works combines over 15 years of experience with our dedication to
