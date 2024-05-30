@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid funFont">
-    <section class="row heroImg box" :style="{ backgroundImage: `url(${defaultImg})` }">
+    <section class="row heroImg box">
       <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
         <div class="p-4 p-md-5 box">
           <h1 class="">Idaho Custom Iron Works</h1>
@@ -150,14 +150,14 @@
 
 
 <script>
-import fp1 from '../assets/img/fp1.jpg'
+// import fp1 from '../assets/img/fp1.jpg'
 // import fp2 from '../assets/img/fp2.jpg'
 // import fp3 from '../assets/img/fp3.jpg'
 export default {
 
   data() {
     return {
-      defaultImg: fp1,
+      // defaultImg: fp1,
       // images: [
       //   fp1,
       //   fp2,
@@ -217,7 +217,6 @@ export default {
 }
 
 .coolImg {
-  // background-image: url(currentImage);
   background-size: cover;
   background-position: center;
   max-height: 45dvh;
