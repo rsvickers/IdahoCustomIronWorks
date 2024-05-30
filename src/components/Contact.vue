@@ -16,7 +16,7 @@
                 </p>
                 <div class="blueBg rounded m-1">
                     <img src="https://idahocustomironworks.com/wp-content/themes/Idaho/images/Logo.png" alt="logo"
-                        height="65" title="Home" />
+                        height="65" title="Idaho Custom Iron Works" />
                 </div>
             </div>
         </div>
