@@ -27,3 +27,4 @@ jobs:
         destination-repository-name: 'IdahoCustomIronWorks'
         user-email: ${{ secrets.GH_EMAIL }}
         target-branch: gh-pages
+        
