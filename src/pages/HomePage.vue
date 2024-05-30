@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid funFont">
-    <section class="row heroImg box" :style="{ backgroundImage: currentImage }">
+    <section class="row heroImg box" :style="{ backgroundImage: `url(${defaultImg})` }">
       <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
         <div class="p-4 p-md-5 box">
           <h1 class="">Idaho Custom Iron Works</h1>
@@ -151,41 +151,42 @@
 
 <script>
 import fp1 from '../assets/img/fp1.jpg'
-import fp2 from '../assets/img/fp2.jpg'
-import fp3 from '../assets/img/fp3.jpg'
+// import fp2 from '../assets/img/fp2.jpg'
+// import fp3 from '../assets/img/fp3.jpg'
 export default {
 
   data() {
     return {
-      images: [
-        fp1,
-        fp2,
-        fp3,
-      ],
-      currentIndex: 0,
+      defaultImg: fp1,
+      // images: [
+      //   fp1,
+      //   fp2,
+      //   fp3,
+      // ],
+      // currentIndex: 0,
     };
   },
-  computed: {
-    currentImage() {
-      return `url(${this.images[this.currentIndex]})`;
-    },
-  },
-  mounted() {
-    this.startSlideshow();
-  },
-  methods: {
-    startSlideshow() {
-      this.slideShowInterval = setInterval(() => {
-        this.nextImage();
-      }, 2500);
-    },
-    nextImage() {
-      this.currentIndex = (this.currentIndex + 1) % this.images.length;
-    },
-  },
-  beforeUnmount() {
-    clearInterval(this.slideShowInterval);
-  },
+  // computed: {
+  //   currentImage() {
+  //     return `url(${this.images[this.currentIndex]})`;
+  //   },
+  // },
+  // mounted() {
+  //   this.startSlideshow();
+  // },
+  // methods: {
+  //   startSlideshow() {
+  //     this.slideShowInterval = setInterval(() => {
+  //       this.nextImage();
+  //     }, 2500);
+  //   },
+  //   nextImage() {
+  //     this.currentIndex = (this.currentIndex + 1) % this.images.length;
+  //   },
+  // },
+  // beforeUnmount() {
+  //   clearInterval(this.slideShowInterval);
+  // },
 };
 </script>
 
