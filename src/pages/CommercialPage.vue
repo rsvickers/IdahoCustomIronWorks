@@ -9,31 +9,31 @@
 
         <section class="row mt-5 mx-3 mb-3">
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com1.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm1.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com2.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm2.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com3.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm3.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com4.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm4.jpg" alt="">
             </div>
         </section>
 
         <section class="row mt-5 mx-3 mb-3">
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com5.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm5.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com6.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm6.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com7.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm7.jpg" alt="">
             </div>
             <div class="col-md-3 col-12 d-flex mt-4 img-fluid">
-                <img class="smallImg rounded mx-3" src="/src/assets/img/_com8.jpg" alt="">
+                <img class="smallImg rounded mx-3" src="/src/assets/img/comm8.jpg" alt="">
             </div>
         </section>
 
@@ -48,13 +48,13 @@
 
 <script>
 import Contact from '../components/Contact.vue'
-import com1 from '../assets/img/_com1.jpg'
-import com2 from '../assets/img/_com2.jpg'
-import com3 from '../assets/img/_com3.jpg'
-import com5 from '../assets/img/_com5.jpg'
-import com6 from '../assets/img/_com6.jpg'
-import com7 from '../assets/img/_com7.jpg'
-import com8 from '../assets/img/_com8.jpg'
+import com1 from '../assets/img/comm1.jpg'
+import com2 from '../assets/img/comm2.jpg'
+import com3 from '../assets/img/comm3.jpg'
+import com5 from '../assets/img/comm5.jpg'
+import com6 from '../assets/img/comm6.jpg'
+import com7 from '../assets/img/comm7.jpg'
+import com8 from '../assets/img/comm8.jpg'
 
 export default {
     data() {
