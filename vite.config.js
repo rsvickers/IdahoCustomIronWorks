@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'docs',
     sourcemap: false
   },
-  base: './',
+  base: '/IdahoCustomIronWorks/',
   server: {
     port: 8080
   }
