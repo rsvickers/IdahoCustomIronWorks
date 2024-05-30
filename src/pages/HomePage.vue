@@ -53,9 +53,7 @@
 
     <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
-        <img class="img-fluid rounded coolImg"
-          src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/420902139_805051591661702_8527944067580198862_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PY9apN3NUj0Ab4Dbs50&_nc_ht=scontent-sea1-1.xx&oh=00_AfC7QVLd7TLGdD6PI0sB1ZuqWqJktbD2r35nPu5m0zluhg&oe=662C96ED"
-          alt="">
+        <img class="img-fluid rounded coolImg" src="/src/assets/img/_com2.jpg" alt="">
       </div>
       <div class="col-12 col-md-7 text-center order-1 order-md-2">
         <h2>Commercial Work</h2>
@@ -86,18 +84,14 @@
         </router-link>
       </div>
       <div class="col-12 col-md-5 d-flex justify-content-center">
-        <img class="img-fluid rounded coolImg"
-          src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/402611988_762649029235292_2579745254667678574_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2Ie7JFppwsQAb49UqqS&_nc_ht=scontent-sea1-1.xx&oh=00_AfAT5BOKV2UHyOflFqItqNifuCg0PyWym2VjWvVdKpcADQ&oe=662CA6D4"
-          alt="">
+        <img class="img-fluid rounded coolImg" src="/src/assets/img/res5.jpg" alt="">
       </div>
     </section>
 
 
     <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
-        <img class="img-fluid rounded coolImg mb-3"
-          src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/406189883_770513675115494_8499299986155006685_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N97Ky8dM1KIAb5het3s&_nc_ht=scontent-sea1-1.xx&oh=00_AfAR8n6i3Tq8KW8y8h5ygKdjY6mghgNYteY0LXRe3LqkSg&oe=662CBCBE"
-          alt="">
+        <img class="img-fluid rounded coolImg mb-3" src="/src/assets/img/cus6.jpg" alt="">
       </div>
       <div class="col-12 col-md-7 text-center order-1 order-md-2">
         <h2>Custom Work</h2>
