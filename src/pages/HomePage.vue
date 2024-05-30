@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid funFont">
-    <section class="row heroImg box" :style="{ backgroundImage: currentImg }">
+    <section class="row heroImg box" :style="{ backgroundImage: currentImage }">
       <div class="col-12 text-light px-0 text-center text-shadow d-flex justify-content-center">
         <div class="p-4 p-md-5 box">
           <h1 class="">Idaho Custom Iron Works</h1>
