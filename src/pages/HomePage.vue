@@ -53,7 +53,7 @@
 
     <section class="row mt-5 mb-2 px-4 align-items-center">
       <div class="col-12 col-md-5 d-flex justify-content-center order-2 order-md-1">
-        <img class="img-fluid rounded coolImg" src="/src/assets/img/_com2.jpg" alt="">
+        <img class="img-fluid rounded coolImg" src="/src/assets/img/comm2.jpg" alt="">
       </div>
       <div class="col-12 col-md-7 text-center order-1 order-md-2">
         <h2>Commercial Work</h2>
